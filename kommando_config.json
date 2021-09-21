@@ -1,0 +1,26 @@
+{
+  "note": "※ Do not remove this file ※",
+  "prefix": "c!",
+  "directory": "src/commands",
+  "commands": [
+    {
+      "name": "getport",
+      "description": "Port Available Checker",
+      "aliases": [],
+      "require": [],
+      "file": "portcheck.js"
+    },
+    {
+      "name": "pidusage",
+      "description": "Get Resource Usage of process",
+      "aliases": [],
+      "require": [],
+      "file": "usage.js"
+    }
+  ],
+  "requirements": [],
+  "messages": {
+    "ERROR": "An error occurred",
+    "LOAD_MESSAGE": "Loaded command %s in %s"
+  }
+}
