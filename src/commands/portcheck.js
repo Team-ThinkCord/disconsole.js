@@ -15,6 +15,8 @@ command.handle((message, args) => {
     const date = new Date().toLocaleDateString();
     const date_time = `${date}  ${time}`;
 
+    if(message.channel.id != "889800405515653130") return;
+
     if(!args[0]) {
         let embed = new Discord.MessageEmbed()
             .setColor(0xFF0000)

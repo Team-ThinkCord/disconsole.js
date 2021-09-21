@@ -26,6 +26,8 @@ function msToTime(duration) {
 
 command.handle((message, args) => {
 
+    if(message.channel.id != "889800405515653130") return;
+
     if (!args[0]) {
         pidusage(process.pid, function(err, stats) {
             if (err) throw err;

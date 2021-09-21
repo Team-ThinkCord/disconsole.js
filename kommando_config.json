@@ -4,6 +4,13 @@
   "directory": "src/commands",
   "commands": [
     {
+      "name": "getprocess",
+      "description": "Port Available Checker",
+      "aliases": [],
+      "require": [],
+      "file": "getpname.js"
+    },
+    {
       "name": "getport",
       "description": "Port Available Checker",
       "aliases": [],
