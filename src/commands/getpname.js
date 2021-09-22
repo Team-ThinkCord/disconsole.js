@@ -6,7 +6,7 @@ const find = require('find-process');
 
 const command = new kommando.Command({
     name: "getprocess",
-    description: "Port Available Checker",
+    description: "Get Process is running",
     aliases: []
 });
 
