@@ -11,6 +11,20 @@
       "file": "getpname.js"
     },
     {
+      "name": "getsysinfo",
+      "description": "Get System Info of Host Computer",
+      "aliases": [],
+      "require": [],
+      "file": "getsysinfo.js"
+    },
+    {
+      "name": "getosinfo",
+      "description": "Get OS Info of Host Computer",
+      "aliases": [],
+      "require": [],
+      "file": "oscheck.js"
+    },
+    {
       "name": "getport",
       "description": "Port Available Checker",
       "aliases": [],

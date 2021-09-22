@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/KommandNyang/disconsole.js#readme",
   "dependencies": {
+    "discord-buttons": "^4.0.0",
     "discord-kommando.js": "^1.0.4",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "find-process": "^1.4.5",
+    "os-utils": "0.0.14",
     "pidusage": "^2.0.21",
     "ps-node": "^0.1.6"
   }

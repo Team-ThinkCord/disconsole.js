@@ -22,7 +22,7 @@ command.handle((message, args) => {
             .setColor(0xFF0000)
             .setFooter(date_time)
             .setTitle("An Error Occurred!")
-            .setDescription("args[0] is null!")
+            .setDescription("args[0] is null!");
             
         message.channel.send(" " , embed)
     } else {
@@ -40,7 +40,7 @@ command.handle((message, args) => {
                     .setColor(0x399FFF)
                     .setFooter(date_time)
                     .setTitle(args[0])
-                    .setDescription(`${list.length} Process(es) Found Named "${args[0]}"`)
+                    .setDescription(`${list.length} Process(es) Found Named "${args[0]}"`);
                     
                 message.channel.send(" " , embed)
             }
